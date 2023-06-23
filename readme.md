@@ -5,7 +5,7 @@
 ```bash
 npm install
 ```
-2. Ejecute el siguiente comando para levantar el servidor(Recuerde de no tener en uso el puero 3030):
+2. Ejecute el siguiente comando para levantar el servidor(Recuerde de no tener en uso el puerto 3030):
 ```bash
 npm start
 ```
