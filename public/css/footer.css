@@ -1,0 +1,21 @@
+.index__footer{
+    text-align: center;
+    margin: 50px 30px 5px;
+}
+.index__footer--servicios h2,p{
+    color: var(--colorGrisOscuro);
+}
+.fa-credit-card,.fa-user-shield,.fa-gift {
+    font-size: 2rem;
+    color: var(--colorCeleste);
+    margin-bottom: 10px;
+}
+.index__footer h2{
+    font-size: 1rem;
+}
+.index__footer--servicios p{
+    margin-bottom: 50px;
+}
+.index__footer--copy{
+    text-align: left;
+}
