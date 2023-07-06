@@ -8,5 +8,6 @@ npm install
 ```bash
 npm start
 ```
-### 1ra parte, Estructuración con HTML; [link](https://github.com/IsmaelAxel/mercado_liebre/tree/estructuraci%C3%B3n_html)
+### 1ra parte. Estructuración con HTML; [link](https://github.com/IsmaelAxel/mercado_liebre/tree/estructuraci%C3%B3n_html)
+### 2da parte. Iniciando css_footer_header; [Link](https://github.com/IsmaelAxel/mercado_liebre/tree/css_header_footer)
 #### Alumno: Carlos Ismael Axel Callamullo 🤖
