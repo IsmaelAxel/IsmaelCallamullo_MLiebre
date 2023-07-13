@@ -1,26 +1,33 @@
 .index__header{
     background-color: var(--colorAmarillo);
+    padding: 5px;
 }
 .index__header img{
     width: 130px;
-    margin: 10px 15px;
-}
-.index__header--form{
-    margin: 10px 15px; 
 }
 .index__header p{
     text-align: center;
-    color: var(--colorNegro);
 }
-.index__header--menu{
-    margin: 15px 0;
+.index__header__nav{
+    display: none;
+}
+.burger-menu{
+    margin: 25px 0 20px;
+    text-align: center;
 }
 .fa-bars{
     color: var(--colorGrisClaro);
     background-color: var(--colorCeleste);
-    text-align: center;
     padding: 8px;
-    margin:0px 150px 10px 130px;
     border-radius: 3px;
     font-size: 20px;
+}
+/* MEDIA QUERYS */
+@media (min-width: 361px){
+    .burger-menu{
+        display: none;
+    }
+    .index__header__nav{
+        display: block;
+    }
 }

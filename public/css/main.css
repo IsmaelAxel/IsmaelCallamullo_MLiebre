@@ -1,3 +1,48 @@
 .index__main{
-    background-color: var(--colorGrisClaro);
+    margin: 10px auto 10px;
+    width: 90%;
+}
+.index__main h2{
+    color: var(--colorGrisOscuro);
+}
+.index__main--article{
+    margin: 10px 0 10px;
+    background-color: #ffffff;
+}
+.index__main--article img{
+    width: 100%;
+}
+.index__main--article-info{
+    border-top: 1px solid var(--colorGrisClaro);
+    padding: 15px;
+}
+.index__main--article-camion i{
+    color: var(--colorVerde);
+    padding: 5px;
+    border: 1px solid var(--colorVerde);
+    border-radius: 50%;
+}
+.index__main--article-precio{
+    font-weight: 500;
+}
+.index__main--article-descuento{
+    color: var(--colorVerde);
+    /* margin-bottom: 10px; */
+}
+.index__main--article-nombre{
+    /* color: var(--colorGrisOscuro);
+    font-weight: 400; */
+    display: none;
+}
+/* MEDIA QUERYS */
+@media (min-width: 361px) {
+    .index__main--article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .index__main--article-nombre{
+        display: block;
+        margin-top: 10px;
+        color: var(--colorGrisOscuro);
+        font-weight: 400;
+    }
 }

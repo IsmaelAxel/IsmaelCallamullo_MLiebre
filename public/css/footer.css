@@ -1,8 +1,9 @@
 .index__footer{
     text-align: center;
-    margin: 50px 30px 5px;
+    padding: 20px 30px 5px;
+    background-color: #ffffff;
 }
-.index__footer--servicios h2,p{
+.index__footer--servicios h2{
     color: var(--colorGrisOscuro);
 }
 .fa-credit-card,.fa-user-shield,.fa-gift {
@@ -15,7 +16,4 @@
 }
 .index__footer--servicios p{
     margin-bottom: 50px;
-}
-.index__footer--copy{
-    text-align: left;
 }
