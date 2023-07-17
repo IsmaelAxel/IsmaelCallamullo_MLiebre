@@ -15,12 +15,21 @@
 .index__main--article-info{
     border-top: 1px solid var(--colorGrisClaro);
     padding: 15px;
+    position: relative;
 }
 .index__main--article-camion i{
-    color: var(--colorVerde);
-    padding: 5px;
-    border: 1px solid var(--colorVerde);
-    border-radius: 50%;
+color: var(--colorVerde);
+display: block;
+font-size: 16px;
+padding: 5px;
+width: 30px;
+height: 30px;
+border: 1px solid #39b54a;
+background-color: #FFF;
+border-radius: 50%;
+position: absolute;
+right: 20px;
+top: -15px;
 }
 .index__main--article-precio{
     font-weight: 500;
@@ -35,14 +44,30 @@
     display: none;
 }
 /* MEDIA QUERYS */
-@media (min-width: 361px) {
+@media (min-width: 481px) {
     .index__main--article{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 46%;
     }
     .index__main--article-nombre{
         display: block;
         margin-top: 10px;
         color: var(--colorGrisOscuro);
         font-weight: 400;
+    }
+    .index__main__visita{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .index__main__ofertas{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+@media (min-width: 769px) {
+    .index__main--article{
+        width: 22%;
     }
 }
