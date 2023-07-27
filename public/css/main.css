@@ -20,7 +20,7 @@
 }
 .index__main--article-info div{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 .index__main--article-camion i{
@@ -37,6 +37,20 @@
     right: 20px;
     top: -15px;
 }
+.index__main--article-camion i:hover{
+    animation: rotate 1s linear;
+}
+@keyframes rotate {
+    0%{
+        transform: rotate(0);    
+    }
+    50%{
+        transform: rotate(-90deg);
+    }
+    100%{
+        transform: rotate(0);
+    }
+}
 .index__main--article-precio{
     font-weight: 500;
     width: 30%;
@@ -45,32 +59,43 @@
     color: var(--colorVerde);
     width: 70%;
 }
-.index__main--article-nombre{
-    /* color: var(--colorGrisOscuro);
-    font-weight: 400; */
-    display: none;
+.index__main--article-info h4{
+    height: 0;
+    overflow: hidden;
+    color: var(--colorGrisOscuro);
+    font-weight: 400;
+    transition: all 2s ease;
 }
+.index__main--article:hover h4{
+    height: 20px;
+}
+
 /* MEDIA QUERYS */
 @media (min-width: 481px) {
     .index__main--article{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
         width: 46%;
+        transition: all 1s ease;
     }
-    .index__main--article-nombre{
-        display: block;
+    .index__main--article:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    /* .index__main--article-nombre{
+
         margin-top: 10px;
         color: var(--colorGrisOscuro);
         font-weight: 400;
-    }
+    } */
     .index__main__visita{
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+        align-items: start;
     }
     .index__main__ofertas{
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+        align-items: start;
     }
 }
 @media (min-width: 769px) {

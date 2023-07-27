@@ -17,3 +17,17 @@
 .index__footer--servicios p{
     margin-bottom: 50px;
 }
+@media (min-width: 361px){
+   .index__footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   }
+   .index__footer--servicios{
+    width: 30%;
+   }
+   .index__footer--copy{
+    width: 100%;
+   }
+
+}
