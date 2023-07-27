@@ -11,6 +11,9 @@
     color: var(--colorCeleste);
     margin-bottom: 10px;
 }
+.fa-credit-card:hover,.fa-user-shield:hover,.fa-gift:hover{
+    color: var(--colorAmarillo);
+}
 .index__footer h2{
     font-size: 1rem;
 }

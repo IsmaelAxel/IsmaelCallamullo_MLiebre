@@ -1,0 +1,41 @@
+.index__login{
+    margin: 10px;
+}
+.index__login h2{
+    padding: 10px;
+}
+.index__login__box {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 90px auto;
+    max-width: 768px;
+}
+.index__login__box--form div{
+    padding-bottom: 20px;
+    width: 100%;
+}
+.index__login__box--form-inputs{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--colorCeleste);
+    width: 100%;
+}
+.index__login__box--form button{
+    padding: 10px;
+    width: 100%;
+    background-color: var(--colorCeleste);
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    transition: all .5s ease;
+}
+.index__login__box--form button:hover{
+    background-color: #0022AA;
+}
+@media (min-width: 481px){
+    .index__login__box {
+        margin: 240px auto;
+    }
+}
