@@ -12,4 +12,5 @@ npm start
 ### 2da parte. Iniciando css_footer_header; [Link](https://github.com/IsmaelAxel/mercado_liebre/tree/css_header_footer)
 ### 3era parte. Iniciando diseño_adaptativo; [Link](https://github.com/IsmaelAxel/mercado_liebre/tree/iniciando_dise%C3%B1o_adaptativo)
 ### 4ta parte. iniciando_flexbox; [Link](https://github.com/IsmaelAxel/mercado_liebre/tree/iniciando_flexblox)
+### 6ta parte. organizando_elementos; [Link](https://github.com/IsmaelAxel/mercado_liebre/tree/organizando_elementos)
 #### Alumno: Carlos Ismael Axel Callamullo 🤖
