@@ -1,0 +1,36 @@
+.index__footer{
+    text-align: center;
+    padding: 20px 30px 5px;
+    background-color: #ffffff;
+}
+.index__footer--servicios h2{
+    color: var(--colorGrisOscuro);
+}
+.fa-credit-card,.fa-user-shield,.fa-gift {
+    font-size: 2rem;
+    color: var(--colorCeleste);
+    margin-bottom: 10px;
+}
+.fa-credit-card:hover,.fa-user-shield:hover,.fa-gift:hover{
+    color: var(--colorAmarillo);
+}
+.index__footer h2{
+    font-size: 1rem;
+}
+.index__footer--servicios p{
+    margin-bottom: 50px;
+}
+@media (min-width: 361px){
+   .index__footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   }
+   .index__footer--servicios{
+    width: 30%;
+   }
+   .index__footer--copy{
+    width: 100%;
+   }
+
+}

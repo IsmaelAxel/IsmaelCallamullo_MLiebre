@@ -1,0 +1,119 @@
+.index__main{
+    margin: 10px auto 10px;
+    width: 90%;
+}
+.index__main h2{
+    color: var(--colorGrisOscuro);
+}
+.index__main--article{
+    margin: 10px 0 10px;
+    background-color: #ffffff;
+}
+.index__main--article img{
+    width: 100%;
+}
+.index__main--article-info{
+    border-top: 1px solid var(--colorGrisClaro);
+    padding: 10px;
+    width: 100%;
+    position: relative;
+}
+.index__main--article-info div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.index__main--article-camion i{
+    color: var(--colorVerde);
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+.index__main--article-camion i:hover{
+    animation: rotate 1s linear;
+}
+@keyframes rotate {
+    0%{
+        transform: rotate(0);    
+    }
+    50%{
+        transform: rotate(-90deg);
+    }
+    100%{
+        transform: rotate(0);
+    }
+}
+.index__main--article-precio{
+    font-weight: 500;
+    width: 30%;
+}
+.index__main--article-descuento{
+    color: var(--colorVerde);
+    width: 70%;
+}
+.index__main--article-info h4{
+    height: 0;
+    overflow: hidden;
+    color: var(--colorGrisOscuro);
+    font-weight: 400;
+    transition: all 2s ease;
+}
+.index__main--article:hover h4{
+    height: 20px;
+}
+
+/* MEDIA QUERYS */
+@media (min-width: 481px) {
+    .index__main--article{
+        width: 46%;
+        transition: all 1s ease;
+    }
+    .index__main--article:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    /* .index__main--article-nombre{
+
+        margin-top: 10px;
+        color: var(--colorGrisOscuro);
+        font-weight: 400;
+    } */
+    .index__main__visita{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: start;
+    }
+    .index__main__ofertas{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: start;
+    }
+}
+@media (min-width: 769px) {
+    .index__main--article{
+        width: 22%;
+    }
+    .index__main--article-precio{
+        font-size: .6rem;
+    }
+    .index__main--article-descuento{
+        font-size: .5rem;
+    }
+}
+@media (min-width: 1024px){
+    .index__main--article-precio{
+        font-size: .8rem;
+    }
+    .index__main--article-descuento{
+        font-size: .6rem;
+    }
+}

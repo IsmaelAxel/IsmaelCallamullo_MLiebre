@@ -1,0 +1,40 @@
+.index__register{
+    margin: 10px;
+}
+.index__register h2{
+    padding: 10px;
+}
+.index__register__box {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ width: 80%;
+ margin: 0 auto;
+}
+.index__register__box h3{
+    padding: 10px 0;
+}
+.index__register__box--form div{
+    padding-bottom: 20px;
+}
+.index__register__box--form div input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--colorCeleste);
+}
+.index__register__box--form-inputs{
+    width: 100%;
+}
+.index__register__box--form-usuario{
+    display: flex;
+    gap: 1rem;
+}
+.index__register__box--form button{
+    padding: 10px;
+    margin-right: 10px;
+    background-color: var(--colorCeleste);
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+}
